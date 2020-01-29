@@ -1,0 +1,55 @@
+{
+  "name": "bs-react-diff-viewer",
+  "version": "0.1.0",
+  "description": "ReasonML bindings for react-diff-viewer library",
+  "main": "src/ReactDiffViewer.re",
+  "files": [
+    "src/*.re",
+    "src/*.ml",
+    "bsconfig.json"
+  ],
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "prepublish": "npm run clean && npm run build",
+    "pretest": "npm run build",
+    "start": "bsb -make-world -w",
+    "test": "TEST=true jest",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erykpiast/bs-react-diff-viewer.git"
+  },
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "bindings",
+    "react",
+    "diff"
+  ],
+  "author": "Eryk Napierała",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erykpiast/bs-react-diff-viewer/issues"
+  },
+  "homepage": "https://github.com/erykpiast/bs-react-diff-viewer#readme",
+  "peerDependencies": {
+    "bs-css": "11.x.x",
+    "react-diff-viewer": "3.x.x",
+    "reason-react": "0.7.x"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.8.3",
+    "@glennsl/bs-jest": "0.4.9",
+    "babel-jest": "25.1.0",
+    "bs-css": "11.0.0",
+    "bs-enzyme": "erykpiast/bs-enzyme#1b543e6",
+    "bs-platform": "7.0.1",
+    "enzyme-adapter-react-16": "1.15.2",
+    "jest": "25.1.0",
+    "react-diff-viewer": "3.0.1",
+    "reason-react": "0.7.0",
+    "standard-version": "7.1.0"
+  }
+}
