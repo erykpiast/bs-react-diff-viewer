@@ -1,6 +1,6 @@
 # bs-react-diff-viewer
 
-[![Build Status](https://travis-ci.org/erykpiast/bs-react-diff-viewer.svg?branch=master)](https://travis-ci.org/erykpiast/bs-react-diff-viewer)
+[![Build Status](https://travis-ci.com/erykpiast/bs-react-diff-viewer.svg?branch=master)](https://travis-ci.com/erykpiast/bs-react-diff-viewer)
 [![dependencies Status](https://david-dm.org/erykpiast/bs-react-diff-viewer/status.svg)](https://david-dm.org/erykpiast/bs-react-diff-viewer)
 [![Greenkeeper badge](https://badges.greenkeeper.io/erykpiast/bs-react-diff-viewer.svg)](https://greenkeeper.io/)
 
