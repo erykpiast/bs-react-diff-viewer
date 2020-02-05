@@ -22,10 +22,9 @@
     "url": "git+https://github.com/erykpiast/bs-react-diff-viewer.git"
   },
   "keywords": [
-    "reason",
-    "bucklescript",
+    "reasonml",
     "bindings",
-    "react",
+    "reason-react",
     "diff"
   ],
   "author": "Eryk Napierała",
