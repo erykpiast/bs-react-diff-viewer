@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/erykpiast/bs-react-diff-viewer.svg?branch=master)](https://travis-ci.com/erykpiast/bs-react-diff-viewer)
 [![dependencies Status](https://david-dm.org/erykpiast/bs-react-diff-viewer/status.svg)](https://david-dm.org/erykpiast/bs-react-diff-viewer)
+[![devDependencies Status](https://david-dm.org/erykpiast/bs-react-diff-viewer/dev-status.svg)](https://david-dm.org/erykpiast/bs-react-diff-viewer?type=dev)
+[![peerDependencies Status](https://david-dm.org/erykpiast/bs-react-diff-viewer/peer-status.svg)](https://david-dm.org/erykpiast/bs-react-diff-viewer?type=peer)
 [![Greenkeeper badge](https://badges.greenkeeper.io/erykpiast/bs-react-diff-viewer.svg)](https://greenkeeper.io/)
 
 ReasonML bindings for [react-diff-viewer](https://github.com/praneshr/react-diff-viewer) library.
