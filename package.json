@@ -34,7 +34,8 @@
   },
   "homepage": "https://github.com/erykpiast/bs-react-diff-viewer#readme",
   "peerDependencies": {
-    "bs-css": "11.x.x",
+    "bs-css": "12.x.x",
+    "bs-css-emotion": "1.x.x",
     "react-diff-viewer": "3.x.x",
     "reason-react": "0.7.x"
   },
@@ -42,7 +43,8 @@
     "@babel/preset-env": "7.8.7",
     "@glennsl/bs-jest": "0.4.10",
     "babel-jest": "25.1.0",
-    "bs-css": "11.0.0",
+    "bs-css": "12.0.1",
+    "bs-css-emotion": "1.0.1",
     "bs-enzyme": "erykpiast/bs-enzyme#1b543e6",
     "bs-platform": "7.1.1",
     "enzyme-adapter-react-16": "1.15.2",
