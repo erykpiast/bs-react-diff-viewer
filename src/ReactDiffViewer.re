@@ -148,7 +148,7 @@ external make:
   ~disableWordDiff: bool=?,
   ~compareMethod: string=?,
   ~hideLineNumbers: bool=?,
-  ~renderContent: (string => React.element)=?,
+  ~renderContent: (option(string) => React.element)=?,
   ~onLineNumberClick: (string => unit)=?,
   ~highlightLines: array(string)=?,
   ~showDiffOnly: bool=?,
